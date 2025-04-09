@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richa Awasthi - Marketing Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo">Richa Awasthi</div>
+                <div class="menu-desktop">
+                    <a href="#about">About</a>
+                    <a href="#expertise">Expertise</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#journey">Journey</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="menu-mobile">
+                    <button class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div class="mobile-menu">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#journey">Journey</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Richa Awasthi</h1>
+                    <div class="divider"></div>
+                    <p class="tagline">Marketing Professional | Digital Strategist | Creative Entrepreneur</p>
+                    <p class="hero-description">Transforming brands through strategic digital marketing, content creation, and innovative storytelling. With 4+ years of experience across digital marketing, content creation, and brand development.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#" class="btn btn-outline">Download Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- Replace with your profile image -->
+                        <div class="profile-image-placeholder">
+                            <span>Profile Image</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Marketing Professional with an Entrepreneurial Spirit</h3>
+                    <p>My marketing journey began at age 13 with entrepreneurial ventures featured in major publications like The Times of India and Bombay Times. From there, I've built a diverse career spanning digital marketing, content creation, and brand development.</p>
+                    <p>With experience managing successful digital campaigns that achieved 45% engagement growth and product launches that attracted high-profile clients including TED speakers, I bring a unique blend of creative vision and strategic execution.</p>
+                    <p>Currently pursuing a BBA in Business, I'm actively developing expertise in Meta Business Suite, Google Analytics, and contemporary marketing tools. My multilingual capabilities (English, Hindi, Tamil, and Gujarati) and cross-cultural background enable me to connect with diverse audiences.</p>
+                    <p>My journey hasn't been without challenges. In 2019, I experienced a life-changing accident that required me to pivot from culinary arts to business, demonstrating my resilience and adaptability. This experience has shaped my perspective, making me an "aggressively positive" professional who thrives in challenging environments.</p>
+                </div>
+                <div class="about-sidebar">
+                    <div class="about-card">
+                        <h3>Professional Snapshot</h3>
+                        <div class="snapshot-item">
+                            <h4>Languages</h4>
+                            <div class="tags">
+                                <span class="tag">English (Professional)</span>
+                                <span class="tag">Hindi (Professional)</span>
+                                <span class="tag">Tamil (Fluent)</span>
+                                <span class="tag">Gujarati (Professional)</span>
+                            </div>
+                        </div>
+                        <div class="snapshot-item">
+                            <h4>Education</h4>
+                            <p>Bachelor of Business (Expected 2025)<br>Torrens University Australia</p>
+                        </div>
+                        <div class="snapshot-item">
+                            <h4>Recognition</h4>
+                            <ul>
+                                <li>Employee of the Month, W Hotels (Sept 2023)</li>
+                                <li>Employee of the Month, Australian Heritage Hotel (Oct 2022)</li>
+                                <li>Featured in multiple national publications</li>
+                            </ul>
+                        </div>
+                        <div class="snapshot-item">
+                            <h4>Personality</h4>
+                            <p>ENFJ-T (Protagonist) - Natural leader with strong communication skills and empathy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Expertise</h2>
+                <div class="divider"></div>
+                <p class="section-intro">Combining creative vision with strategic execution across multiple disciplines to deliver comprehensive marketing solutions.</p>
+            </div>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <ul>
+                        <li>Meta Business Suite</li>
+                        <li>Google Analytics</li>
+                        <li>Campaign Development</li>
+                        <li>Social Media Management</li>
+                        <li>Content Strategy</li>
+                        <li>Performance Tracking</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Creative Production</h3>
+                    <ul>
+                        <li>Adobe Express</li>
+                        <li>Canva Pro</li>
+                        <li>Procreate</li>
+                        <li>Photography</li>
+                        <li>Video Editing</li>
+                        <li>Brand Asset Creation</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <h3>Content Creation</h3>
+                    <ul>
+                        <li>Copywriting</li>
+                        <li>Storytelling</li>
+                        <li>Brand Narratives</li>
+                        <li>Social Media Content</li>
+                        <li>Blog Writing</li>
+                        <li>Visual Content</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Project Management</h3>
+                    <ul>
+                        <li>Monday.com</li>
+                        <li>Team Leadership</li>
+                        <li>Event Management</li>
+                        <li>Campaign Execution</li>
+                        <li>Strategic Planning</li>
+                        <li>Resource Allocation</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Market Analysis</h3>
+                    <ul>
+                        <li>IBIS World</li>
+                        <li>Competitor Analysis</li>
+                        <li>Market Research</li>
+                        <li>Consumer Behavior</li>
+                        <li>Trend Identification</li>
+                        <li>Cross-Cultural Insights</li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Entrepreneurship</h3>
+                    <ul>
+                        <li>Business Development</li>
+                        <li>Brand Strategy</li>
+                        <li>Product Launch</li>
+                        <li>Customer Relations</li>
+                        <li>Pricing Strategy</li>
+                        <li>Hospitality Expertise</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Portfolio</h2>
+                <div class="divider"></div>
+                <p class="section-intro">Showcasing my work across marketing, creative design, and entrepreneurial ventures.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Curators Cafe</h3>
+                            <span class="tag">Marketing</span>
+                        </div>
+                        <p>Led successful product launch campaigns that increased Instagram following by 45%. Attracted high-profile customers including TED speakers through strategic influencer marketing.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Pixelotech</h3>
+                            <span class="tag">Digital Marketing</span>
+                        </div>
+                        <p>Created compelling social media campaigns increasing client engagement by 40%. Designed brand assets and marketing materials using Procreate and Canva.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Whisk it with Richa</h3>
+                            <span class="tag">Entrepreneurship</span>
+                        </div>
+                        <p>Founded a culinary studio teaching no-bake cake classes and kitchen safety to kids. Developed comprehensive marketing strategies to attract and retain clients.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Cookbook Author</h3>
+                            <span class="tag">Content Creation</span>
+                        </div>
+                        <p>Authored a cookbook with Notion Press, with proceeds donated to VSPCA for animal welfare. Developed marketing materials and promotion strategy for the book launch.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>Coated Australia</h3>
+                            <span class="tag">Creative Direction</span>
+                        </div>
+                        <p>Served as Creative Director for premium chocolate brand. Created campaign outlines, maintained brand identity across platforms, and developed strategic advertising placements.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <!-- Replace with project image -->
+                        <div class="project-image-placeholder">
+                            <span>Project Image</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-header">
+                            <h3>The Wakefield Hotel</h3>
+                            <span class="tag">Social Media</span>
+                        </div>
+                        <p>Created and scheduled corporate-themed pub posts as Social Media Manager. Implemented targeted strategies aligned with business goals and audience demographics.</p>
+                        <a href="#" class="portfolio-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Journey</h2>
+                <div class="divider"></div>
+                <p class="section-intro">From early entrepreneurship to becoming a versatile marketing professional, my path has been defined by creativity, resilience, and growth.</p>
+            </div>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2013</div>
+                        <h3>Early Entrepreneurship</h3>
+                        <p>Started selling chocolates, cakes, and jewelry at age 13 under the name "Golden Creeper." Featured in Bombay Times with "13-Year-Olds Can Cook."</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2014</div>
+                        <h3>Animal Welfare Fundraising</h3>
+                        <p>Organized exhibitions and fundraising events for VSPCA animal welfare. Featured in multiple publications including City Bhaskar, Chitralekha Magazine, and Sandesh.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018-2019</div>
+                        <h3>Whisk it with Richa</h3>
+                        <p>Founded a culinary studio teaching no-bake cake classes and kitchen safety to kids. Developed marketing strategies and built a successful local business.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">September 8, 2019</div>
+                        <h3>Life-Changing Accident</h3>
+                        <p>Hit by a drunk driver in Wollongong resulting in 15 fractures and tibial nail fixation. This pivotal moment required learning to walk again and reassessing my career path.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 5 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020-2021</div>
+                        <h3>Cookbook Author & Digital Marketing</h3>
+                        <p>Authored a cookbook with Notion Press. Began freelance digital marketing work with Pixelotech and served as Marketing Coordinator at Curators Cafe, increasing engagement by 45%.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 6 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022</div>
+                        <h3>Hospitality & Education Pivot</h3>
+                        <p>Worked as Head Chef at The Doss House, managed reception at YHA, and began studies in Business at Torrens University, transferring from Culinary Arts.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 7 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022-2023</div>
+                        <h3>Recognition & Growth</h3>
+                        <p>Recognized as Employee of the Month at Australian Heritage Hotel and W Hotels Sydney. Continued professional development in digital marketing and creative tools.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 8 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024-2025</div>
+                        <h3>Current Projects</h3>
+                        <p>Content creation for men's grooming salon, Hyrox fitness event management, volunteer face painting at Pyrmont Community Service, and social media management for Mayuri By Varsha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Projects Section -->
+    <section class="academic-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Academic Projects</h2>
+                <div class="divider"></div>
+                <p class="section-intro">Showcasing my application of marketing principles in real-world business contexts through university projects.</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-number">1</div>
+                    <h3>ADFi Australia</h3>
+                    <p>Selected to present work individually to facilitator Mr. Nick Duke. Served as Project Manager, orchestrating project flow and organizing meetings to develop strategic recommendations.</p>
+                    <p>Focused on strategic digital transformation and e-commerce management, identifying gaps and developing solutions.</p>
+                    <div class="tags">
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Digital Strategy</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">2</div>
+                    <h3>The Wakefield Hotel</h3>
+                    <p>Served as Social Media Manager, Co-Project Manager, and Presenter. Created and scheduled corporate-themed pub posts targeting appropriate audience segments.</p>
+                    <p>Implemented strategies aligned with business goals and delivered active files for easy team editing. Developed professional presentation skills.</p>
+                    <div class="tags">
+                        <span class="tag">Social Media</span>
+                        <span class="tag">Presentation</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">3</div>
+                    <h3>Coated Australia</h3>
+                    <p>Served as Creative Director, developing the entire campaign from start to finish. Maintained brand identity across all social media platforms and created budget-conscious ideas for maximum ROI.</p>
+                    <p>Provided guidance for in-house graphics team, created animated posts, and strategically positioned OOH advertising based on footfall research.</p>
+                    <div class="tags">
+                        <span class="tag">Creative Direction</span>
+                        <span class="tag">Brand Strategy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Press Features Section -->
+    <section class="press-features">
+        <div class="container">
+            <div class="section-header light">
+                <h2>Press Features</h2>
+                <div class="divider"></div>
+                <p class="section-intro">My entrepreneurial journey has been featured in several prominent publications.</p>
+            </div>
+            
+            <div class="press-grid">
+                <div class="press-card">
+                    <h3>Bombay Times</h3>
+                    <p class="press-title">"13-Year-Olds Can Cook"</p>
+                    <p class="press-date">March 2013</p>
+                </div>
+                
+                <div class="press-card">
+                    <h3>City Bhaskar</h3>
+                    <p class="press-title">"Exhibition for Animal Welfare"</p>
+                    <p class="press-date">October 2014</p>
+                </div>
+                
+                <div class="press-card">
+                    <h3>Chitralekha Magazine</h3>
+                    <p class="press-title">"Fundraising exhibition for VSPCA"</p>
+                    <p class="press-date">November 2014</p>
+                </div>
+                
+                <div class="press-card">
+                    <h3>Sandesh</h3>
+                    <p class="press-title">"9th Grade Student Raises Funds for Animals"</p>
+                    <p class="press-date">October 2014</p>
+                </div>
+                
+                <div class="press-card">
+                    <h3>The Times of India</h3>
+                    <p class="press-title">Various features on entrepreneurial projects</p>
+                    <p class="press-date">2014-2020</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="divider"></div>
+                <p class="section-intro">Let's discuss how my diverse skills can bring value to your marketing projects.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>richa.marketing16@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>0421 032 331</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Pyrmont, NSW, Australia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/richa-awasthi</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>Social Media</h3>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/ri_connect" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Your email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h2>Richa Awasthi</h2>
+                    <p>Marketing professional with entrepreneurial spirit and creative vision, combining digital expertise, content creation skills, and cross-cultural insights.</p>
+                    <p class="copyright">&copy; <span id="year"></span> Richa Awasthi. All rights reserved.</p>
+                </div>
+                <div class="footer-cta">
+                    <p>Ready to work together?</p>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
